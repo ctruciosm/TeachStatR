@@ -13,13 +13,13 @@ library(ggplot2)
 ui <- fluidPage(
     
     # Application title
-    titlePanel("Teorema Central do Limite: Vizualise como o TCL funciona"),
+    titlePanel("Teorema Central do Limite: Visualize  como o TCL funciona"),
     theme = shinythemes::shinytheme('superhero'),
  
     # Sidebar with a slider input for number of bins 
     sidebarLayout(
         sidebarPanel(
-            helpText("Vizualise como o TCL (caso iid) funciona. Escolha uma distribuição e defina o valor dos paràmetros."),
+            helpText("Visualize como o TCL (caso iid) funciona. Escolha uma distribuição e defina o valor dos paràmetros."),
             helpText(" - Uniforme[par1, par2]"),
             helpText(" - Bernoulli(par1)"),
             helpText(" - Poisson(par1)"),
